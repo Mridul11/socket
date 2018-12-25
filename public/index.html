@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>socket</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+
+</head>
+<body>
+   <div id="mario-chat">
+       <div id="chat-window">
+            <div id="output" style="border:1px solid green; height:200px; width:100%">
+               
+            </div>
+            <div id="typing" style="border:1px solid red; width:50%; height:50px;">
+                </div>
+                <input type="text" id="handle" placeholder="handle"/>
+                <input type="text" name="ms" id="msg" placeholder="message" />
+                <button id="send">send</button>
+       </div>
+   </div>
+    <script src="/chat.js"></script>
+</body>
+</html>
